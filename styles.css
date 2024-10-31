@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+.huddle-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:  hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+    padding: 3rem;
+    position: relative;
+   
+}
+.huddle-icon{
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+    gap: 60rem;
+
+}
+.huddle-logo{
+    width: 100px;
+}
+.btn{
+    border: 1px solid white;
+    width: 50%;
+    border-radius: 50px;
+    background-color: white;
+    z-index: 10;
+    padding: 15px;
+}
+.community-content{
+    display: flex;
+    padding-top: 3rem;
+    gap: 5rem;
+}
+.illustration-mockups{
+    width: 800px;
+}
+.build-community{
+    padding-top: 4rem;
+    width: 700px;
+}
+.build-community h1{
+    line-height: 1.5;
+    color:  hsl(192, 100%, 9%);
+}
+.build-community p{
+    padding-top: 20px;
+    color:  hsl(208, 11%, 55%);
+}
+.btn2{
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 1.5rem;
+    width: 60%;
+}
+.second-container{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 3rem;
+   background-color:  hsl(0, 0%, 99%);
+}
+.div{
+  background-color:  hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 5rem;
+ align-items: center;
+ 
+
+}
+.div h2{
+    width: 50%;
+    margin-right: 3rem;
+    text-align: left;
+    color:  hsl(192, 100%, 9%);
+    padding-top:3rem;
+}
+.div p{
+    width: 40%;
+    margin-right: 3rem;
+    text-align: left;
+    padding-top: 1rem;
+    line-height: 1.5;
+    color:  hsl(208, 11%, 55%);
+}
+.flowing-conversation h2{
+    width: 50%;
+    text-align: left;
+    color:  hsl(192, 100%, 9%);
+    margin-left: 45rem;
+}
+.flowing-conversation p{
+
+    margin-left: 45rem;
+    text-align: left;
+    padding-top: 1rem;
+    line-height: 1.5;
+    color:  hsl(208, 11%, 55%);
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+}
+.illustration-flowing-conversation{
+    float: none;
+    margin-right: 40px;
+}
+.ready-to-build{
+    width: 40%;
+    margin-top: 3rem;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-inline: auto;
+    padding: 20px 40px;
+    margin-bottom: -7rem;
+    color:  hsl(192, 100%, 9%);
+
+
+}
+footer{
+    background-color:   hsl(192, 100%, 9%);
+    padding: 6rem 4rem;
+    color: white;
+}
+.footer-info{
+    display: flex;
+}
+.footer-logo{
+  background-color: white;
+  color: white;
+}
+.logo{
+    padding-top: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+.dnd{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.information{
+    padding-top: 4rem;
+    margin-left: -20rem;
+    line-height: 2;
+}
+.contact-us{
+    margin-left: 5rem;
+}
+.icons{
+    padding-top: 4rem;
+}
+.social-icon{
+    padding:  5px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 5px 5px;
+}
+.copyright{
+    text-align: right;
+    padding-top: 2rem;
+    font-size: 14px;
+}
+

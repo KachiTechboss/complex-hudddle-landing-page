@@ -1,0 +1,199 @@
+@media (max-width: 799px){
+    body{
+        overflow-x: hidden;
+        
+    }
+    .huddle-container{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color:  hsl(193, 100%, 96%);
+        background-image: url(images/bg-hero-mobile.svg);
+        padding: 20px;
+        text-align: center;
+        position: relative;
+       
+    }
+    .huddle-icon{
+        display: flex;
+        align-items: center;
+        margin-top: -1rem;
+        gap: 6rem;
+        padding: 10px;
+    }
+    .huddle-logo{
+        width: 100px;
+    }
+    .btn{
+        border: 1px solid white;
+        width: 100%;
+        border-radius: 50px;
+        background-color: white;
+        z-index: 10;
+        padding: 10px;
+    }
+    .community-content{
+        display: block;
+        padding-top: 3rem;
+        
+    }
+    .illustration-mockups{
+        width: 100%;
+        padding: 10px;
+    }
+    .build-community{
+        padding-top: 2rem;
+        width: 100%;
+        padding: 10px;
+    }
+    .build-community h1{
+        line-height: 1.5;
+        font-size: 20px;
+        color:  hsl(192, 100%, 9%);
+    }
+    .build-community p{
+        padding-top: 20px;
+        margin-inline: auto;
+        color:  hsl(208, 11%, 55%);
+    }
+    .btn2{
+        background-color:  hsl(322, 100%, 66%);
+        color: white;
+        margin-top: 1.5rem;
+        width: 60%;
+    }
+    .second-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+       gap: 20px;
+       padding: 20px;
+       background-color:  hsl(0, 0%, 99%);
+       /* overflow-x: hidden; */
+    }
+    .div{
+      background-color:  hsl(0, 0%, 100%);
+      border-radius: 10px;
+      padding: 10px;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+     display: flex;
+     flex-direction: column;
+     
+     
+    
+    }
+    .div h2{
+        width: 100%;
+        margin-right: 3rem;
+         font-size: 18px;
+        color:  hsl(192, 100%, 9%);
+        padding-top:3rem;
+        text-align: center;
+
+    }
+    .div p{
+        width: 100%;
+        margin-right: 3rem;
+       text-align: center;
+        padding-top: 1rem;
+        line-height: 1.5;
+        color:  hsl(208, 11%, 55%);
+    }
+    .flowing-conversation h2{
+        width: 100%;
+        text-align: center;
+        color:  hsl(192, 100%, 9%);
+        margin-left: 0rem;
+    }
+    .flowing-conversation p{
+        margin-left: 0rem;
+       text-align: center;
+        padding-top: 1rem;
+        line-height: 1.5;
+        color:  hsl(208, 11%, 55%);
+    }
+    .pic{
+        width: 200px;
+        height: 200px;
+        float: none;
+        margin-left: 0px;
+    }
+    .illustration-flowing-conversation{
+        float: none;
+        margin-right: 0px;
+    }
+    .ready-to-build{
+        width: 100%;
+        margin-top: 3rem;
+        height: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        text-align: center;
+        margin-inline: auto;
+        padding: 20px;
+        margin-bottom: -7rem;
+        color:  hsl(192, 100%, 9%);
+        z-index: 2;
+    
+    }
+    footer{
+        background-color:   hsl(192, 100%, 9%);
+        padding: 20px;
+        color: white;
+    }
+    .footer-info{
+        display: block;
+    }
+    .footer-logo{
+      background-color: white;
+      color: white;
+      text-align: left;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 0rem;
+    }
+    
+    .dnd{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 0rem;
+    }
+    .information{
+        padding-top: 4rem;
+        margin-left: 0rem;
+        line-height: 2;
+    }
+    .contact-us{
+        margin-left: 0rem;
+    }
+    .icons{
+        padding-top: 4rem;
+        text-align: center;
+    }
+    .social-icon{
+        padding:  5px;
+        border: 1px solid white;
+        border-radius: 100%;
+        margin: 0px 0px;
+     
+        margin-inline: auto;
+    }
+    .copyright{
+        text-align: right;
+        padding-top: 2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    
+}
